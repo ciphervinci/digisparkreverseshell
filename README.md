@@ -6,7 +6,7 @@ This arduino script is used to download payload from your system and execute it 
 
 -First create a payload in your system. Can be any executable (I am using .exe). Use MSFvenom.  
 -Then create simple http server by python in 8080 port. (python3 -m http.server 8080)  
--Replace the ip and the name of the payload in the script accourding to your local ip and payload name.  
+-Replace the ip and the name of the payload in the script according to your local ip and payload name.  
 <img src="https://i.ibb.co/brB2Dmp/Changing-Line.png" alt="Change here">  
 -Upload Script to your attiny85 chip.  
 -Open a listener in your system.(Like MSFconsole)  
